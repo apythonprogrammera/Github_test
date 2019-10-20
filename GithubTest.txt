@@ -1,12 +1,4 @@
-Github를 테스트 하기 위해서 만들어진 메모장입니다.
-This text is for testing Github
+This text is for the Github test
 
-GithubGithubGithubGithubGithubGithubGithubGithub
-GithubGithubGithubGithubGithubGithubGithubGithub
-GithubGithubGithubGithubGithubGithubGithubGithub
-GithubGithubGithubGithubGithubGithubGithubGithub
-GithubGithubGithubGithubGithubGithubGithubGithub
-+1 line
-+2 line
-+3 line
-+4 line
+This text is for Atom either
+Atom is a hackable text editor for the 21st Century
