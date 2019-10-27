@@ -6,20 +6,35 @@
     <title>krunker</title>
 
     <style>
-        a{text-decoration:none;
+        .krunker{text-decoration:none;
         color:#555555;
         position: fixed; top:560px; left:30px;
+        border: 4px solid black;
+        padding: 1px 3px;
+        text-align: center;
         }
 
     	a:hover{color:#ff0000;
         text-decoration: underline;
     	}
 
+      .container{
+        margin: 0 auto;
+        left: 50%;
+        width: 500px;
+        background: white;
+        padding: 15px;
+
+      }
+
     	#image{
     	position: fixed; top: 20px; left:30px;
+      border: none;
     	}
 
-    	.krunker{
+    	.notkrunker{
+      color: skyblue;
+      text-decoration: none;
     	text-align: center;
     	}
 
@@ -27,9 +42,22 @@
   </head>
   <body>
 
-    <a class="krunker" href="https://krunker.io">krunker link(click here)</a>
+        <a class="krunker" href="https://krunker.io">krunker link(click here)</a>
 
-    <img id="image" class="krunker" src="https://vignette.wikia.nocookie.net/krunkerio/images/0/06/Runner_1.png/revision/latest?cb=20190419050053">
+        <img id="image" class="krunker" src="https://vignette.wikia.nocookie.net/krunkerio/images/0/06/Runner_1.png/revision/latest?cb=20190419050053">
+
+        <div style="height: 300px">
+          <div class="container">
+          <p>Krunker is a video game. You can get in the game by the link. You can see the fandom wiki in this link:
+          <a class="notkrunker" href="https://krunkerio.fandom.com/wiki/Krunker.io_Wiki">krunker fandom wiki</a><br>
+          <a class="notkrunker" href="https://namu.wiki/w/Krunker.io">한국어 설명을 듣고싶다면 여기</a>
+          <br><br>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
 
   </body>
 </html>
