@@ -2,3 +2,5 @@ This text is for the Github test
 
 This text is for Atom either
 Atom is a hackable text editor for the 21st Century
+
+and I don't know how the branch works
