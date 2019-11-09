@@ -127,3 +127,26 @@ header{
     display: flex;
   }
 }
+
+/* Content-Hero image */
+.contentA{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  min-height: 450px;
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('Img/wallpaper.jpg');
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  color: var(--text-bright-color);
+  text-align: center;
+}
+.contentA h1{
+  font-size: 40px;
+}
+.container ul{
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
