@@ -190,3 +190,10 @@ header{
 .contactA h2{
   font-size: 70px
 }
+
+/* location */
+.location iframe{
+  width: 50%;
+  height: 400px;
+  vertical-align: bottom;
+}
