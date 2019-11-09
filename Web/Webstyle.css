@@ -2,7 +2,36 @@
 
 /* colors */
 :root{
-  --main-color: #5D9AB3
-  --accent-color: #BF7785
-  --dark-color: #2B5566
+  --main-color: #5D9AB3;
+  --accent-color: #BF7785;
+  --dark-color: #2B5566;
+}
+
+/* default-all for page */
+body{
+  font-family: '맑은 고딕', 'Apple SD Gothic Neo',sans-serif;
+}
+
+/* Hero image */
+.conA{
+  text-align: center;
+}
+.conA h1{
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 15vw;
+}
+.conA p{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 18px;
+}
+
+@media (min-width: 768px) {
+  .conA h1{
+    font-size: 115px;
+  }
+  .conA p{
+    font-size: 24px;
+  }
 }
