@@ -150,3 +150,21 @@ header{
   padding: 0;
   list-style: none;
 }
+
+/* About-Hero image */
+.aboutA{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  min-height: 450px;
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('Img/wallpaper2.jpg');
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  color: var(--text-bright-color);
+  text-align: center;
+}
+.aboutA h1{
+  font-size: 40px;
+}
