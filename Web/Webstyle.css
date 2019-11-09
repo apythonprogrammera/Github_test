@@ -5,6 +5,7 @@
   --main-color: #5D9AB3;
   --accent-color: #BF7785;
   --dark-color: #2B5566;
+  --text-bright-color: #fff;
 }
 
 /* default-all for page */
@@ -20,9 +21,11 @@ body{
   justify-content: center;
   height: 100vh;
   min-height: 450px;
-  background-image: url('Img/wallpaper5.jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('Img/wallpaper5.jpg');
   background-position: center;
   background-size: cover;
+  color: #fff;
+  color: var(--text-bright-color);
   text-align: center;
 }
 .conA h1{
@@ -37,6 +40,9 @@ body{
   margin-top: 0;
   margin-bottom: 0;
   font-size: 18px;
+}
+.conA img{
+  width: 20%
 }
 
 @media (min-width: 768px) {
