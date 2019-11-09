@@ -168,3 +168,25 @@ header{
 .aboutA h1{
   font-size: 40px;
 }
+
+/* Contact-Hero image */
+.contactA{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  min-height: 450px;
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('Img/wallpaper7.jpg');
+  background-position: center;
+  background-size: cover;
+  font-family: 'Montserrat',sans-serif;
+  color: #fff;
+  color: var(--text-bright-color);
+  text-align: center;
+}
+.contactA h1{
+  font-size: 100px
+}
+.contactA h2{
+  font-size: 70px
+}
