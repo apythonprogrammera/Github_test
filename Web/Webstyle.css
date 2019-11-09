@@ -15,6 +15,9 @@ body{
 
 /* Hero image */
 .conA{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 100vh;
   min-height: 450px;
   background-image: url('Img/wallpaper5.jpg');
